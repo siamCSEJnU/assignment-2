@@ -22,7 +22,8 @@ body {
 .section2-header-title,
 .section3-title,
 .section4-title,
-.span-2 {
+.span-2,
+.contact-title {
   font-weight: 700;
   font-size: 45px;
   color: var(--dark-1);
@@ -225,6 +226,39 @@ nav {
   padding: 40px 220px;
 }
 
+/* contact section styles  */
+
+.contact {
+  width: 70%;
+  margin: 70px auto;
+  background-color: var(--primary-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-items: center;
+}
+.contact-container > input,
+textarea {
+  width: 50%;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: none;
+}
+.contact > .button {
+  position: relative;
+  left: 25%;
+  margin-top: 10px;
+}
+#text-field,
+#email {
+  font-size: 25px;
+}
+
 /*-------- final section styles
 ----------------------------- */
 .final-section-container {
@@ -367,6 +401,18 @@ nav {
     align-content: center;
   }
 
+  /* contact styles  */
+  .contact {
+    width: 100%;
+  }
+  .contact-title {
+    text-align: center;
+    font-size: 35px;
+  }
+  .contact-container > input,
+  textarea {
+    width: 80%;
+  }
   .final-section-container {
     padding: 20px;
     font-size: 12px;
