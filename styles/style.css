@@ -37,6 +37,7 @@ nav {
 .nav-title,
 .section2-header-title,
 .section3-title,
+.section4-title,
 .span-2 {
   font-weight: 700;
   font-size: 45px;
@@ -63,7 +64,8 @@ nav {
 .header-description,
 .section2-body-description,
 .section-1-description,
-.section3-description {
+.section3-description,
+.section4-description {
   color: var(--dark-3);
   font-weight: 400;
   font-size: 16px;
@@ -115,7 +117,9 @@ nav {
   font-weight: 700;
   font-size: 45px;
 }
-.section1-title {
+.section1-title,
+.section3-title,
+section4-title {
   margin-bottom: 25px;
 }
 
@@ -175,4 +179,38 @@ nav {
 .exp.btn {
   font-weight: 400;
   font-size: 30px;
+}
+
+/*------ section3 styles
+----------------------- */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 90px 270px;
+  gap: 30px;
+}
+.fact {
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  padding: 40px 20px;
+  text-align: center;
+}
+.section3-text {
+  margin-top: 100px;
+  margin-left: 240px;
+}
+.fact > h3 {
+  font-weight: 600;
+  font-size: 45px;
+  color: var(--dark-2);
+}
+.fact > p {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--dark-3);
+}
+.fact:hover {
+  transform: scale(1.2);
+  background-color: burlywood;
+  /* animation: scale 5 ease-in 0 5 alternate; */
 }
