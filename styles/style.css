@@ -214,3 +214,18 @@ section4-title {
   background-color: burlywood;
   /* animation: scale 5 ease-in 0 5 alternate; */
 }
+
+/*--------section=4 styles
+------------------------- */
+.section4-description {
+  margin-top: 20px;
+  text-align: center;
+}
+.section4-title {
+  text-align: center;
+}
+.sponsers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 40px 220px;
+}
