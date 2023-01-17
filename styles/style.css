@@ -97,6 +97,7 @@ nav {
   padding: 23px;
   font-weight: 600;
   font-size: 20px;
+  border: none;
 }
 .header-image {
   display: flex;
